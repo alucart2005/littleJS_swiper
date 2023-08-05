@@ -21,7 +21,7 @@ body {
   background-position: center;
   background-size: cover;
   width: 320px;
-  background-color: #fdfcff;
+  background-color: #7457ad;
   overflow: hidden;
   border-radius: 8px;
   color: rgb(9, 9, 9);
@@ -36,7 +36,8 @@ body {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+  object-fit:scale-down ;
+  background-color: rgb(145, 71, 255);
 }
 .swiper-pagination-bullet {
   width: 10px;
