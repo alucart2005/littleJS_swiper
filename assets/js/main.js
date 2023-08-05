@@ -5,17 +5,18 @@ const swiper = new Swiper('.swiper-container', {
   centeredSlides: true,
   slidesPerView: 'auto',
   coverflowEffect: {
-    rotate: 10,
+    rotate: 15,
     stretch: 0,
-    depth: 350,
+    depth: 300,
     modifier: 1,
     slideShadows: true,
   },
   pagination: {
     el: '.swiper-pagination',
+    clickable: true,
   },
   autoplay: {
-    delay: 3000,
+    delay: 2000,
     disableOnInteraction: false,
   },
   
